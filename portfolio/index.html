@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Diego Toribio Rodríguez</title>
+
+    <!-- TAGS seo -->
+    <!-- favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Raleway:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <nav id="navbar" class="nav-wrapper">
+        <div class="nav-content">
+            <ul class="nav__links">
+                <li><a href="#proyectos" rel="noopener noreferrer">Proyectos</a>
+                </li>
+                <li><a href="about_me.html" rel="noopener noreferrer">Sobre mí</a>
+                </li>
+                <li><a href="#" rel="noopener noreferrer">Contacto</a>
+                </li>
+                <!--li><a href="#blog" rel="noopener noreferrer">Blog</a>
+                </li-->
+
+            </ul>
+
+            <ul class="nav__rrss">
+                <li><a href="https://www.linkedin.com/in/diego-toribio-rodriguez/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="assets/icons/linkedin-white.svg" alt=""></a></li>
+                <li><a href="https://github.com/diegotoribior" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/icons/github-white.svg" alt=""></a></li>
+            
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <header class="hero">
+            <div class="hero-col-left">
+                <div id="google_translate_element"></div>
+                <div class="hero__txt-container">
+                    <h1 class="hero__title">
+                        <span>D</span>
+                        <span>i</span>
+                        <span>e</span>
+                        <span>g</span>
+                        <span>o</span>
+                        <br> 
+                        <span>T</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>i</span>
+                        <span>b</span>
+                        <span>i</span>
+                        <span>o</span>
+                        <br> 
+                        <span>R</span>
+                        <span>o</span>
+                        <span>d</span>
+                        <span>r</span>
+                        <span>í</span>
+                        <span>g</span>
+                        <span>u</span>
+                        <span>e</span>
+                        <span>z</span>
+                    </h1>
+                    <p class="hero__subtitle">Programador web & consultor tecnológico</p>
+                    <p class="hero__text">Bienvenid@ a mi página web, donde podrás ver una muestra de mi trabajo.</p>
+                    <a href="about_me.html" class="hero__button">Más sobre mí</a>
+                </div>
+            </div>
+            <div class="hero-col-right">
+                <img class="hero__img" src="assets/img/surf-transformed.png" alt="Diego Toribio Rodríguez">
+            </div>
+
+        </header>
+
+        <section id="proyectos" class="section-container">
+            <h2 class="section-container__title">Proyectos</h2>
+
+
+            <!-- <ul>
+                <  https://codepen.io/Bourkeba/pen/RwQwRYv  >
+                <li class="btn active" onclick="filterSelection('all')">All</li>
+                <li class="btn" onclick="filterSelection('fronted')">Frontend</li>
+                <li class="btn" onclick="filterSelection('data')">Datos</li>
+            </ul> -->
+
+            <ul class="projects-list">
+                <li class="project frontend">
+                    <a href="proyects/project-wonder-experience.html">
+                        <h3 class="project__title">Wonder Experience</h3>
+                        <img class="project__img" src="assets/img/projects/we/wonderexperience.png"
+                            alt="Imagen de Wonder Experience">
+                        <div class="project__description">
+                            <p>Wonder Experience es una startup española en la que participo y que queremos realizar un
+                                producto relacionado con experiencias turísticas gamificadas.</p>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project data">
+                    <a href="proyects/project-datawarehouse.html">
+                        <h3 class="project__title">Data Warehouse con Open Data y Power BI</h3>
+                        <img class="project__img" src="assets/img/projects/tfg/datos_powerbi.PNG"
+                            alt="Imagen de un dashboard de Power BI">
+                        <div class="project__description">
+                            <p> Un Data Warehouse es un tipo de almacenamiento propio de los sistemas de Business
+                                Intelligence.</p>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="project data">
+                    <a href="proyects/project-gym.html">
+                        <h3 class="project__title">Frontend del gimnasio Astraeus Gym</h3>
+                        <img class="project__img" src="assets/img/projects/canva/gym-canva.png"
+                            alt="Imagen de la web de un gimnasio">
+                        <div class="project__description">
+                            <p> Esta maquetación está basada en un diseño de la página de diseño www.canva.com.</p>
+                            <span>Ver más</span>
+                        </div>
+                    </a>
+                </li>
+
+
+            </ul>
+        </section>
+
+        <!-- <section id="blog" class="section-container">
+            <h2 class="section-container__title">Blog</h2>
+
+            <div class="article-list">
+                <article>
+                    <h3>Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+                <article>
+                    <h3>Titulo 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+                <article>
+                    <h3>Titulo 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+                <article>
+                    <h3>Titulo 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+                <article>
+                    <h3>Titulo 5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+                <article>
+                    <h3>Titulo 6</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cupiditate totam maiores vitae
+                        labore sapiente explicabo id, enim magnam porro, facere, eveniet mollitia? Harum sed, magnam
+                        porro explicabo corporis eveniet?</p>
+                </article>
+            </div>
+        </section> -->
+
+    </div>
+
+    <footer class="footer">
+        <span id="year"></span> - Diego Toribio Rodríguez <br>
+        <span class="footer__designer">Diseñado por <a href="#" target="_blank">Sofy Frontend</a></span>
+    </footer>
+
+    <!-- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+    <script src="js/scripts.js"></script>
+    <script>
+
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

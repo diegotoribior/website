@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-black:#272F38;
+    --color-dark-gray:#353E49;
+    --color-gray:#9A9C93;
+    --color-red:#FF706C;
+    --color-white:#FFFFFF;
+    --color-wonder: #fab711;
+    --color-freelance: #00C28C;
+    --color-portfolio: #393b92;
+    --color-blog: blue;
+    --padding: 4rem;
+    --padding-mobile: 2rem;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-black);
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    min-width: 400px;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 3px #5c5c5c;
+    transition-duration: 0.25s;
+}
+
+.button--freelance:hover{
+    background-color: var(--color-freelance);
+}
+.button--wonder:hover{
+    background-color: var(--color-wonder);
+}
+.button--portfolio:hover{
+    background-color: var(--color-portfolio);
+}
+.button--blog:hover{
+    background-color: var(--color-blog);
+}
+.indx-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.indx-header{
+    padding: 1rem;
+}
+.indx-header h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.indx-header h1 span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.indx-header h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.indx-header p{
+    margin-bottom: 1rem;
+}
+.indx-rrss{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.indx-rrss img{
+    width: 1.5rem;
+}
+
+.indx-rrss a:hover img{
+    filter: drop-shadow(1px 1px 1px #5c5c5c);
+}
+
+.indx-content{
+    padding: 1rem;
+}
+.indx-content div{
+    margin-bottom: 1.5rem;
+}
+
+.indx-content p{
+    margin-bottom: 0.5rem;
+}
+
+.indx-footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.indx-footer p{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+}
+
+.indx-footer p:last-child{
+    font-size: 0.6rem;
+}
+
+@media screen and (max-width: 700px) {
+    .button{
+        min-width: 0;
+        width: 100%;
+    }
+    .indx-wrapper{
+        position: static;
+        display: block;
+        transform: none;
+        top: 0;
+        left: 0;
+        grid-template-columns: none;
+    }
+    .indx-header{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .indx-footer{
+        position: relative;
+        margin-top: 4rem;
+    }
+}
